@@ -1,7 +1,6 @@
 package a01b.e1;
 
 import static org.junit.Assert.*;
-import java.util.*;
 
 public class Test {
 	
