@@ -32,5 +32,5 @@ public class LogicsImpl implements Logics {
 				        .flatMap(p -> Stream.of(p,new Pair<>(this.gridSize-p.getX()-1,this.gridSize-p.getY()-1))) // aggiunge rotazione di 180
 				        .flatMap(p -> Stream.of(p,new Pair<>(this.gridSize-p.getY()-1,p.getX()))) // aggiunge rotazione di 90 gradi
 				        .collect(Collectors.toSet());
-	}   
+	}
 }
